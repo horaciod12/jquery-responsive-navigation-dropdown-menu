@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+		<title>JQuery Responsive Dropdown Menu</title>
+		<link rel="stylesheet" href="css/fontello.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+
+	<body>
+		
+		<header>
+			<input type="checkbox" id="btn-menu">
+			<label for="btn-menu" class="icon-menu"></label>
+			<nav class="menu">
+                <ul>
+                    <li><a href="#">TV &amp; Video</a></li>
+                    <li class="submenu"><a href="#">Laptops<span class="icon-down-open"></span></a>
+                        <ul>
+                            <li><a href="#">Apple Macbooks</a></li>
+                            <li><a href="#">Chromebooks</a></li>
+                            <li><a href="#">Gaming Laptops</a></li>
+                            <li><a href="#">Windows Laptops</a></li>
+                        </ul>
+                    </li>
+                    <li class="submenu"><a href="#">Phones<span class="icon-down-open"></span></a>
+                        <ul>
+                            <li><a href="#">Android Phones</a></li>
+                            <li><a href="#">BlackBerry</a></li>
+                            <li><a href="#">IPhones</a></li>
+                            <li class="submenu"><a href="#">Accesories<span class="icon-down-open"></span><span class="icon-right-open"></span></a>
+                                <ul>
+                                    <li><a href="#">Batteries</a></li>
+                                    <li><a href="#">Cases</a></li>
+                                    <li><a href="#">Memory Cards</a></li>
+                                    <li><a href="#">USB Chargers</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Cameras</a></li>
+                </ul>
+			</nav>
+		</header>
+		
+		<script src="menu.js"></script>
+
+	</body>
+
+</html>
